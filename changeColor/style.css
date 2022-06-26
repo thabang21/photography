@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navItems{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+
+}
+
+ul{
+
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+
+a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+
+h3{
+    font-size: 24px;
+}
+
+
+.container{
+    max-width: 50%;
+    width:1280px;
+    margin: 0 auto;
+    margin-top: 190px;
+}
+
+#btn{
+    background-color: white;
+    padding: 15px;
+}
